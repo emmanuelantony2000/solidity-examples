@@ -178,6 +178,16 @@ module.exports = {
       url: `https://rpc.ankr.com/fantom_testnet`,
       chainId: 4002,
       accounts: accounts(),
+    },
+    kava: {
+      url: `https://evm.kava.io/`,
+      chainId: 2222,
+      accounts: accounts(),
+    },
+    "kava-testnet": {
+      url: `https://evm.testnet.kava.io/`,
+      chainId: 2221,
+      accounts: accounts(),
     }
   }
 };
